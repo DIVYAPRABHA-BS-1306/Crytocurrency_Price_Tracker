@@ -1,12 +1,16 @@
-🚀 Cryptocurrency Price Tracker
+ Cryptocurrency Price Tracker
 
-A Python-based mini project that automatically fetches real-time cryptocurrency prices from CoinMarketCap
- using Selenium and saves them into a CSV file for anal
- 
+A simple Python project that scrapes live cryptocurrency prices from CoinMarketCap and saves them into a CSV file.
 
-📂 File Structure
-crypto-price-tracker/
-│── crypto_tracker.py        # Main Python script
-│── requirements.txt         # Required Python libraries
-│── crypto_data.csv          # Output data file (auto-generated)
-│── README.md                # Project documentation
+Features
+
+Scrapes cryptocurrency name, price, 24h change, and market cap
+
+Saves results to CSV with timestamps
+
+Configurable coin limit (e.g., Top 10 coins)
+
+Runs in headless mode (optional)
+
+Installation
+pip install -r requirements.txt
